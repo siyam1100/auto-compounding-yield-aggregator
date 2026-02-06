@@ -1,0 +1,8 @@
+vault:
+  asset: "USDC"
+  fee_percentage: 0.5
+strategies:
+  - name: "AaveV3-Lending"
+    allocation: 100
+  - name: "CompoundV3"
+    allocation: 0
